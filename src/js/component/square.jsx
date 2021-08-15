@@ -6,9 +6,9 @@ const Square = props => {
 
 	const switchTurn = turn => {
 		if (turn == true && token == "") {
-			setToken("X");
+			setToken("🍳");
 		} else if (turn == false && token == "") {
-			setToken("O");
+			setToken("🥚");
 		}
 		props.changeValue();
 	};
